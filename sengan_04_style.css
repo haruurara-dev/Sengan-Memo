@@ -1,0 +1,52 @@
+body{
+    background-color: #eef8ff;
+    font-family: sans-serif;
+    text-align: center;
+    margin:0;
+    padding-top:100px;
+}
+h1{
+    color: #333333;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+button {
+    display: block;
+    width: 220px;
+    height: 60px;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#morning-btn{
+    background-color:#8fd3ff;
+}
+#night-btn{
+    background-color:#ff8f8f;
+}
+#saveMorning, #saveNight{
+    background-color:#0af40a
+}
+#backButton{
+    background-color:#0af40a
+}
+
+button:hover{
+    background-color: #67bff5
+}
+
+.notice{
+    margin-top:30px;
+    font-size:14px;
+    color:#666666;
+    line-height:1.8;
+}
+
+textarea{
+    width:400px;
+    height:200px;
+    font-size:16px;
+    padding:10px;
+    resize:none;
+}
